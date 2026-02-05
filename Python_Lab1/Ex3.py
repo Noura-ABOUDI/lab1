@@ -1,0 +1,17 @@
+#Exercise 3 : Distance Between Two Points
+while True:
+    try:
+        XA=int(input("abscisse du point A:"))
+        YA=int(input("coordonnée du point A:"))
+        break
+    except:continue
+        
+while True:
+    try:
+        XB=int(input("abscisse du point B:"))
+        YB=int(input("coordonnée du point B:"))
+        break
+    except:continue
+
+dist=((XA-XB)**2+(YA-YB)**2)**0.5
+print("distance={:.2f}".format(dist))
