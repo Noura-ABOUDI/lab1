@@ -16,7 +16,7 @@ else :
         try:
             year = int(input("Enter the year (1900-2026): "))
             if year >= 1900 and year <= 2026:
-                break
+                break055
         except: continue
             
 
@@ -25,7 +25,5 @@ else :
         days = 29
     else:
         days = 28
-
-
 print("Number of days:", days)
 
