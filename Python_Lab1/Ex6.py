@@ -4,8 +4,7 @@
 while True:
     try:
         n = int(input("Enter an integer strictly greater than 2: "))
-        if n >2 : break
-        
+        if n >2 : break    
     except: continue
 original = n
 reversed_num = 0

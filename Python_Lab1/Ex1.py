@@ -9,7 +9,6 @@ while 1:
         b = int(input("Enter the second integer: "))
         break
     except: continue
-c= int(input("Enter the second integer: "))
 
 print("Sum =", a + b)
 print("Difference =", a - b)

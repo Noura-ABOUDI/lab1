@@ -16,7 +16,7 @@ else :
         try:
             year = int(input("Enter the year (1900-2026): "))
             if year >= 1900 and year <= 2026:
-                break055
+                break
         except: continue
             
 
